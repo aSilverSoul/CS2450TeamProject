@@ -1,2 +1,2 @@
 # CS2450TeamProject
-hangman
+hangman with a colorgame with an implemented scoretracker and leaderboard
