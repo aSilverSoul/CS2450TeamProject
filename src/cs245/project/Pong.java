@@ -1,6 +1,6 @@
 /***************************************************************
 * file: Pong.java
-* author: Gary Machorro, Brandon Helt, Sonya Eller
+* author: Gary Machorro, Brandon Helt, S. Renee Eller
 * class: CS 2450 – Programming Graphical User Interfaces
 *
 * assignment: Project 1-finalversion
