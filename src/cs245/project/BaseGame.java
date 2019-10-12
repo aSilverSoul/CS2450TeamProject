@@ -4,10 +4,10 @@
 * class: CS 2450 – Programming Graphical User Interfaces
 *
 * assignment: Project 1
-* date last modified: 9/13/19
+* date last modified: 10/11/19
 *
 * purpose: This is the BaseGame Class, which is the superclass
-* 
+* of the three games in this application
 * 
 *
 ****************************************************************/ 
