@@ -152,13 +152,7 @@ public class HangMan extends BaseGame{
             }
         }
     }
-    // method: changeScore
-	// purpose: updates the score when the player has an incorrect guess
-   /* public void changeScore(int change)
-    {
-        score += change;
-        ps.gameScore.setText("Score: " + score);
-    }*/
+    
     // method: changeImage
 	// parameter: the number of incorrect guesses
 	// purpose: updates the "hanged man" with the latest image
@@ -175,15 +169,10 @@ public class HangMan extends BaseGame{
     public void loadEndPage(int realScore)
     {
         loadColorPage(realScore);
-        /*hs.setVisible(true);
-        hs.setPlayerScore(realScore);
-        hs.Back.setVisible(false);
-        hs.End.setVisible(true);
-        hs.Player_Score.setVisible(true);
-        hs.Player_Score.setText("Your Score: " + realScore);*/
+        
     }
-        // method: loadColorPage
-            // purpose: this loads up the color page
+     // method: loadColorPage
+     // purpose: this loads up the color page
     public void loadColorPage(int realScore)
     {
         cg = new ColorGame();
@@ -207,24 +196,20 @@ public class HangMan extends BaseGame{
     public void exitGame(){
         running = false;
     }
-    // method: checkCharacter
+    	// method: checkCharacter
 	// purpose: checks to see if the selected character is in the chosen word
     private boolean checkCharacter(char letter){
         return selectedWord.toLowerCase().indexOf(Character.toLowerCase(letter)) > -1;
     }
-    // method: getSelectedWord
+    	// method: getSelectedWord
 	// purpose: gets the selected word
     public String getSelectedWord(){
         return selectedWord;
     }
-    // method: getHiddenWord
+    	// method: getHiddenWord
 	// purpose: gets the hidden word   
     public String getHiddenWord(){
         return hiddenWord;
     }
-    // method: getScore
-	// purpose: gets the score
-    /*public int getScore(){
-        return score;
-    }*/
+   
 }
