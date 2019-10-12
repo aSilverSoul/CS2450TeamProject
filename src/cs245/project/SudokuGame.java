@@ -7,8 +7,8 @@
 * date last modified: 9/27/19
 *
 * purpose: This is the model for the sudoku game.
-* 
-*
+* contains solution and compares the input to 
+* the solution to score
 ****************************************************************
 */
 package cs245.project;
@@ -53,6 +53,8 @@ public class SudokuGame extends BaseGame {
         addNumbers();
         System.out.println(gridToString());
     }
+	//methods:addNumbers()
+	//assigns: the solution to the grid
     private void addNumbers(){
 	grid.get(0).set(0, 8);
         grid.get(0).set(3, 4);
@@ -95,7 +97,8 @@ public class SudokuGame extends BaseGame {
     public void removeFromGrid(int i, int j){
         grid.get(i).set(j,-1);
     }
-    
+    	//method: gridToString()
+	//gets the grid and prints it out to view it
     public String gridToString(){
         String gridString = "";
         for(int i = 0; i < GRID_SIZE; ++i){
@@ -108,7 +111,9 @@ public class SudokuGame extends BaseGame {
         }
         return gridString;
     }
-    
+    //method:validSubmit()
+   //checks the submission and compares with solution
+    //gives a score and asks to resubmit if not 100%
     public void validSubmit(){
         int k = 0;
         for(int i = 0; i < GRID_SIZE; ++i){
@@ -132,7 +137,9 @@ public class SudokuGame extends BaseGame {
             endGame();
         }
     }
-
+	//method:endGame()
+	//ends the game and sums the total for
+	//the leaderboard
     private void endGame() {
         HighScoreScreen hs = new HighScoreScreen();
         HighScoreTracker hsTrack = new HighScoreTracker();
