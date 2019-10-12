@@ -88,10 +88,10 @@ class PongEngine extends JPanel {
 	
 	String message = "Press space to start";
 	
-	/** Coordinate of player A */
+	//coordinate for playerA
 	int aY;
 	
-	/** Move player A up/down by d pixels */
+	//Move it by given pixels
 	public void moveA(int d) {
 		aY += d;
 		
@@ -103,10 +103,10 @@ class PongEngine extends JPanel {
 		} 
 	}
 	
-	/** Coordinate of player B */
+	//coordingate of player b
 	int bY;
 
-	/** Move player B up/down by d pixels */
+	//move it by a given number of pixels
 	public void moveB(int d) {
 		bY += d;
 
@@ -155,8 +155,8 @@ class PongEngine extends JPanel {
 		});
 		timer.start();
 	}
-	
-	/** Update the game */
+	//method:updateGame()
+	//updates the game such as the position of ball and paddles
 	private void updateGame() {
 		// Update ball coordinates
 		ballX += dX;
@@ -197,7 +197,8 @@ class PongEngine extends JPanel {
 		
 	}
 	
-	/** Start the game */
+	//method: start()
+	//starts the game
 	public void start() {
 		if (!running) {
 			running = true;
