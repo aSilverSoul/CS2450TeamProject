@@ -1,2 +1,2 @@
 # CS2450TeamProject
-hangman with a colorgame with an implemented scoretracker, leaderboard, and sudoku
+a java swing app that has four games: hangman, color match, sudoku, pong
