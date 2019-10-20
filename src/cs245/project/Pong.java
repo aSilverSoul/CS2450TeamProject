@@ -37,7 +37,7 @@ import javax.swing.Timer;
 public class Pong extends JFrame {
 		
 	PongEngine gameEngine = new PongEngine();	
-	
+	static JLabel score;
 	public Pong() {
 		setTitle("Pong");
 		setLocationRelativeTo(null);
@@ -45,7 +45,7 @@ public class Pong extends JFrame {
 		setSize(600, 400);
 				
 		// Initial status bar displaying scores
-		JLabel score = new JLabel("Player A | Player B", JLabel.CENTER);
+		score = new JLabel("Player A | Player B", JLabel.CENTER);
 		score.setOpaque(true);
 		score.setBackground(Color.green);
 		add(score, BorderLayout.SOUTH);	
@@ -180,6 +180,7 @@ class PongEngine extends JPanel {
 		} else if (ballX - ballR < 0) { // If out of bounds, score increases for player B
 			bScore++;
 			System.out.println("Player A: " + aScore + " | Player B: " + bScore);
+                        Pong.score.setText("Player A: " + aScore + " | Player B: " + bScore);
 			running = false;
 		}
 		
@@ -189,6 +190,7 @@ class PongEngine extends JPanel {
 		} else if (ballX + ballR > getWidth()){ // If out of bounds, score increases for player A
 			aScore++;
 			System.out.println("Player A: " + aScore + " | Player B: " + bScore);
+                        Pong.score.setText("Player A: " + aScore + " | Player B: " + bScore);
 			running = false;
 		}
 		

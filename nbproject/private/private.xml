@@ -3,14 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/MainMenu.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/HighScoreScreen.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/Splash.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/CreditsScreen.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/BaseGame.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/HangMan.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/HighScoreTracker.java</file>
-            <file>file:/C:/Users/garym/Documents/NetBeansProjects/finishedV1/cs245-project/src/cs245/project/PlayScreen.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/HighScoreScreen.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/HangMan.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/MainMenu.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/Splash.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/splashv2.gif</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/Pong.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/ColorGameGUI.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/SudokuGUI.java</file>
+            <file>file:/C:/Users/brand/Documents/NetBeansProjects/CS2450TeamProject/src/cs245/project/BaseGame.java</file>
         </group>
     </open-files>
 </project-private>
